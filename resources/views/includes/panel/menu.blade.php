@@ -1,17 +1,17 @@
 <h6 class="navbar-heading text-muted">Gestionar datos</h6>
 <ul class="navbar-nav">
   <li class="nav-item">
-    <a class="nav-link" href="/">
+    <a class="nav-link" href="/home">
       <i class="ni ni-tv-2 text-danger"></i> Dashboard
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/">
+    <a class="nav-link" href="{{ route('specialties.index') }}">
       <i class="ni ni-planet text-blue"></i> Especialidades
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/">
+    <a class="nav-link" href="{{ url('/doctors') }}">
       <i class="ni ni-single-02 text-orange"></i> Medicos
     </a>
   </li>
@@ -41,12 +41,12 @@
 <!-- Navigation -->
 <ul class="navbar-nav mb-md-3">
   <li class="nav-item">
-    <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html">
+    <a class="nav-link" href="#">
       <i class="ni ni-sound-wave text-yellow"></i> Frecuencias de citas
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/foundation/colors.html">
+    <a class="nav-link" href="#">
       <i class="ni ni-spaceship text-orange"></i> Medicos mas activos
     </a>
   </li>
